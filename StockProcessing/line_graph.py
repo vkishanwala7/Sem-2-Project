@@ -86,7 +86,8 @@ class LineGraph:
         """
         if output_path is None:
             stock_name = os.path.basename(self.csv_file_path).replace('.csv', '')
-            output_path = f"{stock_name}_line_graph.png"
+            output_path = f"{stock_name}_line_graph.png sad he is"
+            #hello
         
         plt.savefig(output_path, dpi=dpi)
         print(f"Graph saved to {output_path}")
